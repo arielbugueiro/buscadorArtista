@@ -1,11 +1,13 @@
 # Proyecto Artista
 
-Este repositorio te permite buscar el nombre de un artista/banda sonora, encontrarás un input el para colocar el nombre del artista que desea, y al presionar la tecla 'Intro' automáticamente detallará el período de actividad, origen, géneros y formación de la banda, .
+Este repositorio te permite buscar información de un artista/banda sonora, encontrarás un input el para colocar el nombre del artista que desea, y al presionar la tecla 'Intro' automáticamente detallará el período de actividad, origen, géneros y formación de la banda, .
 
 Utiliza el API de theaudiodb.
 
 
-![Artista](https://user-images.githubusercontent.com/70410313/127051155-753abdfc-636b-4a45-9e7f-ccd0a324a359.PNG)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/70410313/129647494-737db6c8-9b53-4faf-8bf2-62c7173fac4b.PNG">
+</p>
 
 
 ## Tecnologías utilizadas son:
