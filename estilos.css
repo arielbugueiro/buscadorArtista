@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'sans serif', cursive;
+    background: linear-gradient(to left, 
+    rgb(40, 40, 40),
+    rgb(40, 40, 40))
+    
+}
+header{
+    overflow: hidden;
+
+    padding: 30px;
+    background:  rgba(5, 184, 169, 0.24);
+                
+    height: 90vh;
+    width: 100vw;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(2% 11%, 3% 7%, 96% 16%, 96% 27%, 91% 79%, 10% 93%, 8% 89%);
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h1{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+form{
+    position: relative;
+    display: flex;
+    width: 500px;
+}
+input{
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+button{
+    width: 100px;
+    max-width: 100%;
+    /* height: 40px; */
+    background: #2a8585;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    font-weight: 600;
+    outline: none;
+}
+button:hover{
+    transform: scale(0.95);
+}
+
+
+.artist{
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 20px;
+  position: relative;
+  display: block;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    header{
+        height: 70vh;
+        width: 95%vw;
+
+    }
+    .container{
+        font-size: 16px;
+    }
+    header .container h1{
+      font-size: 18px;
+
+    }
+    form{
+        max-width: 300px;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+        padding: 12px 20px;
+  
+    }
+    button{
+        width: 80px;
+        max-width: 100%;
+
+    }   
+    img{
+      width: 100%;
+      height: auto;
+    }
+    
+  }
