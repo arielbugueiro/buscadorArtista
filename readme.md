@@ -16,6 +16,9 @@ Utiliza el API de theaudiodb.
 * **HTML 5.**
 * **CSS 3.**
 
+
+>URL: [Buscador de Artistas](https://arielbugueiro.github.io/buscadorArtista/)
+
 >Autor: [Ariel Bugueiro](https://arielbugueiro.github.io/portfolio2021/)
 
 
